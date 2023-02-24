@@ -12,12 +12,12 @@ export const StatisticsItem = styled.li`
   padding: 5px;
   margin-bottom: 10px;
       border-radius: 10px;
-  :nth-last-child(-n + 2) {
+  :nth-last-of-type(-n + 2) {
     font-weight: 700;
     background-color: green;
     color: white;
   }
-  :nth-last-child() {
+  :nth-last-of-type() {
     margin-bottom: 0px;
   }
 `;
